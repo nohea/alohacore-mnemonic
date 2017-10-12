@@ -16,13 +16,13 @@ var spec = {
   }]
 };
 
-module.exports = require('bitcore-lib').errors.extend(spec);
+module.exports = require('alohacore-lib').errors.extend(spec);
 
-},{"bitcore-lib":"bitcore-lib"}],2:[function(require,module,exports){
+},{"bitcore-lib":"alohacore-lib"}],2:[function(require,module,exports){
 (function (Buffer){
 'use strict';
 
-var bitcore = require('bitcore-lib');
+var bitcore = require('alohacore-lib');
 var BN = bitcore.crypto.BN;
 var unorm = require('unorm');
 var _ = bitcore.deps._;
@@ -317,7 +317,7 @@ Mnemonic._entropyChecksum = function(entropy) {
 module.exports = Mnemonic;
 
 }).call(this,require("buffer").Buffer)
-},{"./errors":1,"./pbkdf2":3,"./words":7,"bitcore-lib":"bitcore-lib","buffer":12,"unorm":230}],3:[function(require,module,exports){
+},{"./errors":1,"./pbkdf2":3,"./words":7,"bitcore-lib":"alohacore-lib","buffer":12,"unorm":230}],3:[function(require,module,exports){
 (function (Buffer){
 'use strict';
 
